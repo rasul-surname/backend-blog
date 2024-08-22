@@ -1,6 +1,6 @@
 import mongoose from 'mongoose'
 
-// MVC - model view controller
+// MVC - model view controller test
 const PostSchema = new mongoose.Schema({
     title: {
         type: String,
