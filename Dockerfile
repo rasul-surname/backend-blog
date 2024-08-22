@@ -1,7 +1,5 @@
 FROM node:20-alpine
-RUN npm install
-WORKDIR /usr/app
-COPY package*.json ./
 COPY . .
+RUN npm install
 CMD ["npm", "run", "start:dev"]
 EXPOSE 4444
